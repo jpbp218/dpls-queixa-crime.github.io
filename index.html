@@ -178,7 +178,7 @@
     JotForm.init(function () {
       JotForm.setPhoneMaskingValidator('input_21_full', '#########');
 
-      JotForm.calendarMonths = ["", "", "", "", "", "", "", "", "", "", "", ""];
+      JotForm.calendarMonths = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro" ,"Novembro", "Dezembro"];
       JotForm.calendarDays = ["", "", "", "", "", "", "", ""];
       JotForm.calendarOther = { "today": "" };
       var languageOptions = document.querySelectorAll('#langList li');
@@ -190,7 +190,7 @@
       JotForm.setCustomHint('input_11', 'Escreva aqui...');
       if (window.JotForm && JotForm.accessible) $('input_15').setAttribute('tabindex', 0);
       JotForm.setCustomHint('input_15', 'Escreva aqui...');
-      JotForm.description('input_15', '*Obrigatório');
+      //JotForm.description('input_15', '*Obrigatório');
       if (window.JotForm && JotForm.accessible) $('input_24').setAttribute('tabindex', 0);
       JotForm.setCustomHint('input_24', 'Escreva aqui...');
       JotForm.newDefaultTheme = true;
